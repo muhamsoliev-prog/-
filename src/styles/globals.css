@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ============================================
+   🎨 ДИЗАЙН СИСТЕМА - ТЁМНАЯ ТЕМА
+   ============================================ */
+
+:root {
+  /* 📦 ФОНЫ — НОВЫЕ */
+  --bg-main: #0D1117;
+  --bg-card: #161B22;
+  --bg-card-hover: #1C2128;
+  --bg-input: #21262D;
+  --bg-sidebar: #0D1117;
+  --bg-topbar: #161B22;
+
+  /* 📦 ФОНЫ — СОВМЕСТИМОСТЬ С CSS КОМПОНЕНТАМИ */
+  --color-bg-primary: #0D1117;
+  --color-bg-secondary: #161B22;
+  --color-bg-tertiary: #1C2128;
+  --color-bg-input: #21262D;
+
+  /* 💚 АКЦЕНТЫ */
+  --accent: #00D084;
+  --accent-dim: rgba(0, 208, 132, 0.15);
+  --accent-border: rgba(0, 208, 132, 0.3);
+  --accent-hover: #00B874;
+
+  /* � АКЦЕНТЫ — СОВМЕСТИМОСТЬ */
+  --color-accent-primary: #00D084;
+  --color-accent-secondary: #00B874;
+
+  /* �📊 ЦВЕТА МЕТРИК */
+  --color-revenue: #00D084;      /* выручка — зелёный */
+  --color-expense: #FF6B6B;      /* удержания — красный */
+  --color-ads: #FFB830;          /* реклама — оранжевый */
+  --color-tax: #58A6FF;          /* налоги — синий */
+  --color-cost: #A8B3CF;         /* себестоимость — серый */
+  --color-profit: #00D084;       /* прибыль — зелёный */
+  --color-margin: #7EE787;       /* маржа — светло-зелёный */
+  --color-roi: #56D364;          /* ROI — зелёный */
+
+  /* � ЦВЕТА ТОКЕНОВ API */
+  --color-token-stats: #00D084;      /* Statistics — зелёный */
+  --color-token-analytics: #58A6FF;  /* Analytics — синий */
+  --color-token-finance: #FFB830;    /* Finance — оранжевый */
+  --color-token-content: #A371F7;    /* Content — фиолетовый */
+  --color-token-prices: #FF6B6B;     /* Prices — красный */
+  --color-token-ads: #FFB830;        /* Advertising — оранжевый */
+
+  /* 📝 ТЕКСТ */
+  --text-primary: #E6EDF3;
+  --text-secondary: #8B949E;
+  --text-muted: #484F58;
+
+  /* �📝 ТЕКСТ — СОВМЕСТИМОСТЬ */
+  --color-text-primary: #E6EDF3;
+  --color-text-secondary: #8B949E;
+  --color-text-muted: #484F58;
+
+  /* 🪟 БОРДЕРЫ */
+  --border: rgba(240, 246, 252, 0.1);
+  --border-card: rgba(240, 246, 252, 0.07);
+
+  /* 🪟 БОРДЕРЫ — СОВМЕСТИМОСТЬ */
+  --color-border: rgba(240, 246, 252, 0.1);
+
+  /* 💫 ТЕНИ И СВЕЧЕНИЯ */
+  --shadow-card: 0 1px 0 rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.03);
+  --shadow-glow-green: 0 0 20px rgba(0,208,132,0.25);
+  --shadow-glow-red: 0 0 20px rgba(255,107,107,0.2);
+  --shadow-glow-orange: 0 0 20px rgba(255,184,48,0.2);
+  --shadow-glow-blue: 0 0 20px rgba(88,166,255,0.2);
+
+  /* 🔲 РАДИУСЫ */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+
+  /* 🔤 ШРИФТ */
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* СВЕТЛАЯ ТЕМА */
+[data-theme="light"] {
+  /* 📦 ФОНЫ */
+  --bg-main: #F6F8FA;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F3F4F6;
+  --bg-input: #F6F8FA;
+  --bg-sidebar: #FFFFFF;
+  --bg-topbar: #FFFFFF;
+
+  /* 📦 ФОНЫ — СОВМЕСТИМОСТЬ */
+  --color-bg-primary: #F6F8FA;
+  --color-bg-secondary: #FFFFFF;
+  --color-bg-tertiary: #F3F4F6;
+  --color-bg-input: #F6F8FA;
+
+  /* 💚 АКЦЕНТЫ */
+  --accent: #00A86B;
+  --accent-dim: rgba(0, 168, 107, 0.1);
+  --accent-border: rgba(0, 168, 107, 0.2);
+  --accent-hover: #009454;
+
+  /* 💚 АКЦЕНТЫ — СОВМЕСТИМОСТЬ */
+  --color-accent-primary: #00A86B;
+  --color-accent-secondary: #009454;
+
+  /* 📝 ТЕКСТ */
+  --text-primary: #1C2128;
+  --text-secondary: #57606A;
+  --text-muted: #9EA7B3;
+
+  /* 📝 ТЕКСТ — СОВМЕСТИМОСТЬ */
+  --color-text-primary: #1C2128;
+  --color-text-secondary: #57606A;
+  --color-text-muted: #9EA7B3;
+
+  /* 🪟 БОРДЕРЫ */
+  --border: rgba(0, 0, 0, 0.08);
+  --border-card: rgba(0, 0, 0, 0.06);
+
+  /* 🪟 БОРДЕРЫ — СОВМЕСТИМОСТЬ */
+  --color-border: rgba(0, 0, 0, 0.08);
+
+  /* 💫 ТЕНИ И СВЕЧЕНИЯ */
+  --shadow-card: 0 1px 0 rgba(0,0,0,0.05), inset 0 1px 0 rgba(0,0,0,0.02);
+  --shadow-glow-green: 0 0 20px rgba(0,168,107,0.15);
+  --shadow-glow-red: 0 0 20px rgba(239,68,68,0.1);
+  --shadow-glow-orange: 0 0 20px rgba(255,184,48,0.1);
+  --shadow-glow-blue: 0 0 20px rgba(88,166,255,0.1);
+}
+
+/* ============================================
+   ⚙️ БАЗОВЫЕ СТИЛИ
+   ============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-main) !important;
+  color: var(--text-primary) !important;
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 0.2s ease, color 0.2s ease;
+  margin: 0;
+}
+
+/* ============================================
+   📜 СКРОЛЛБАР
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30363D;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #484F58;
+}
+
+/* ============================================
+   🔘 КНОПКИ
+   ============================================ */
+
+button {
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-family: var(--font);
+  font-size: 14px;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 10px 16px;
+  font-weight: 500;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button.btn-primary {
+  background: var(--accent);
+  color: #000;
+  font-weight: 600;
+}
+
+button.btn-primary:hover {
+  background: var(--accent-hover);
+  box-shadow: 0 4px 15px rgba(0, 208, 132, 0.3);
+}
+
+button.btn-secondary {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-card);
+}
+
+button.btn-secondary:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ============================================
+   📥 ПОЛЯ ВВОДА
+   ============================================ */
+
+input,
+textarea,
+select {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  padding: 10px 14px;
+  font-size: 14px;
+  font-family: var(--font);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-muted);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-dim);
+}
+
+/* ============================================
+   💾 КАРТОЧКИ
+   ============================================ */
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  background: var(--bg-card-hover);
+}
+
+/* ============================================
+   📊 KPI КАРТОЧКИ (специальные)
+   ============================================ */
+
+.kpi-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  transition: all 0.2s ease;
+}
+
+.kpi-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+}
+
+.kpi-card.kpi-green {
+  border: 1px solid rgba(0, 208, 132, 0.2);
+  box-shadow: 0 0 30px rgba(0, 208, 132, 0.08);
+}
+
+.kpi-card.kpi-green:hover {
+  box-shadow: 0 0 40px rgba(0, 208, 132, 0.15);
+  border-color: rgba(0, 208, 132, 0.5);
+}
+
+.kpi-card.kpi-red {
+  border: 1px solid rgba(255, 107, 107, 0.2);
+  box-shadow: 0 0 30px rgba(255, 107, 107, 0.08);
+}
+
+.kpi-card.kpi-red:hover {
+  box-shadow: 0 0 40px rgba(255, 107, 107, 0.15);
+  border-color: rgba(255, 107, 107, 0.5);
+}
+
+.kpi-card.kpi-orange {
+  border: 1px solid rgba(255, 184, 48, 0.2);
+  box-shadow: 0 0 30px rgba(255, 184, 48, 0.08);
+}
+
+.kpi-card.kpi-orange:hover {
+  box-shadow: 0 0 40px rgba(255, 184, 48, 0.15);
+  border-color: rgba(255, 184, 48, 0.5);
+}
+
+.kpi-card.kpi-blue {
+  border: 1px solid rgba(88, 166, 255, 0.2);
+  box-shadow: 0 0 30px rgba(88, 166, 255, 0.08);
+}
+
+.kpi-card.kpi-blue:hover {
+  box-shadow: 0 0 40px rgba(88, 166, 255, 0.15);
+  border-color: rgba(88, 166, 255, 0.5);
+}
+
+/* ============================================
+   🎨 ИКОНКИ В КАРТОЧКАХ
+   ============================================ */
+
+.icon-wrapper {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.icon-green {
+  background: rgba(0, 208, 132, 0.15);
+  color: var(--color-revenue);
+}
+
+.icon-red {
+  background: rgba(255, 107, 107, 0.15);
+  color: var(--color-expense);
+}
+
+.icon-orange {
+  background: rgba(255, 184, 48, 0.15);
+  color: var(--color-ads);
+}
+
+.icon-blue {
+  background: rgba(88, 166, 255, 0.15);
+  color: var(--color-tax);
+}
+
+.icon-gray {
+  background: rgba(168, 179, 207, 0.15);
+  color: var(--color-cost);
+}
+
+/* ============================================
+   📈 ТЕКСТ И ЧИСЛА
+   ============================================ */
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.text-xs {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.text-muted {
+  color: var(--text-secondary);
+}
+
+.text-muted-dark {
+  color: var(--text-muted);
+}
+
+.number-large {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.number-xl {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* ============================================
+   📊 ТРЕНДЫ
+   ============================================ */
+
+.trend {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.trend.positive {
+  color: var(--color-profit);
+  background: rgba(0, 208, 132, 0.1);
+}
+
+.trend.negative {
+  color: var(--color-expense);
+  background: rgba(255, 107, 107, 0.1);
+}
+
+/* ============================================
+   🗂️ ТАБЛИЦЫ
+   ============================================ */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: var(--bg-input);
+}
+
+thead th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+tbody td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+tbody tr:hover {
+  background: var(--bg-card-hover);
+}
+
+/* ============================================
+   🎬 АНИМАЦИИ
+   ============================================ */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* ============================================
+   🌙 УТИЛИТЫ
+   ============================================ */
+
+.flex {
+  display: flex;
+}
+
+.flex.items-center {
+  align-items: center;
+}
+
+.flex.items-end {
+  align-items: flex-end;
+}
+
+.flex.justify-between {
+  justify-content: space-between;
+}
+
+.flex.justify-center {
+  justify-content: center;
+}
+
+.flex.gap-2 {
+  gap: 8px;
+}
+
+.flex.gap-3 {
+  gap: 12px;
+}
+
+.flex.gap-4 {
+  gap: 16px;
+}
+
+.gap-1 {
+  gap: 4px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+.gap-3 {
+  gap: 12px;
+}
+
+.gap-4 {
+  gap: 16px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mt-1 {
+  margin-top: 4px;
+}
+
+.mt-2 {
+  margin-top: 8px;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* ============================================
+   🎀 ДОПОЛНИТЕЛЬНЫЕ КЛАССЫ
+   ============================================ */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge.success {
+  background: rgba(0, 208, 132, 0.15);
+  color: var(--color-profit);
+}
+
+.badge.danger {
+  background: rgba(255, 107, 107, 0.15);
+  color: var(--color-expense);
+}
+
+.badge.warning {
+  background: rgba(255, 184, 48, 0.15);
+  color: var(--color-ads);
+}
+
+.badge.info {
+  background: rgba(88, 166, 255, 0.15);
+  color: var(--color-tax);
+}
+
+/* ============================================
+   🔤 GRID И LAYOUT
+   ============================================ */
+
+.grid {
+  display: grid;
+}
+
+.grid.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1440px) {
+  .grid.grid-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .grid.grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .grid.grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ============================================
+   🎯 ФИКСИРОВАННЫЕ ЦВЕТА ТЕКСТА
+   ============================================ */
+
+.text-green { color: var(--color-revenue); }
+.text-red { color: var(--color-expense); }
+.text-orange { color: var(--color-ads); }
+.text-blue { color: var(--color-tax); }
+.text-gray { color: var(--color-cost); }
+
+/* ============================================
+   🌐 АДАПТИВНОСТЬ
+   ============================================ */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* ============================================
+   🎨 ГЛОБАЛЬНЫЕ СТИЛИ ДЛЯ ТЕМЫ
+   ============================================ */
+
+/* Все карточки */
+.card, 
+[class*="card"], 
+[class*="Card"],
+section,
+.panel {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-card) !important;
+}
+
+/* Все input, select, textarea */
+input, 
+select, 
+textarea,
+[type="text"],
+[type="email"],
+[type="password"],
+[type="number"] {
+  background: var(--bg-input) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border) !important;
+  transition: all 0.15s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-muted) !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px var(--accent-dim) !important;
+  outline: none !important;
+}
+
+/* Таблицы */
+table {
+  color: var(--text-primary) !important;
+}
+
+th {
+  background: var(--bg-input) !important;
+  color: var(--text-secondary) !important;
+  border-color: var(--border) !important;
+}
+
+td {
+  border-color: var(--border-card) !important;
+}
+
+tr:hover td {
+  background: var(--bg-card-hover) !important;
+}
+

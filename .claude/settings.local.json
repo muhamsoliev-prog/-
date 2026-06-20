@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(node backend/server.js)",
+      "Bash(curl -s http://localhost:4000/api/health)",
+      "Bash(curl *)",
+      "Read(//tmp/**)",
+      "Bash(pkill -f \"node backend/server.js\")",
+      "Bash(netstat -ano)",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -I{} taskkill /PID {} /F)",
+      "Bash(cmd.exe *)",
+      "Bash(powershell *)",
+      "Bash(timeout 10 node server.js)",
+      "Bash(timeout 8 node server.js)",
+      "Bash(timeout 12 node server.js)",
+      "Bash(sc query *)",
+      "Bash(where mongod *)",
+      "Bash(timeout 15 node server.js)",
+      "Bash(npm run *)",
+      "Bash(echo \"PID=$!\")",
+      "Bash(npx tsc *)",
+      "Bash(timeout 12 node /c/Users/RedmiBook/Downloads/osinot-skeleton/backend/server.js)",
+      "Bash(taskkill /PID 3984 /F)",
+      "Bash(taskkill //PID 3984 //F)",
+      "Bash(node /c/Users/RedmiBook/Downloads/osinot-skeleton/backend/server.js)",
+      "Bash(taskkill //PID 12356 //F)",
+      "Bash(taskkill //PID 14064 //F)",
+      "Bash(node server.js)",
+      "Bash(xargs -I{} taskkill //PID {} //F sleep 1 node server.js)",
+      "Bash(xargs -I{} taskkill //PID {} //F)"
+    ]
+  }
+}

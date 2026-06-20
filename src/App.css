@@ -1,0 +1,34 @@
+.app-layout {
+  display: flex;
+  height: 100vh;
+  background: var(--bg-main, #0D1117);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--bg-main, #0D1117);
+}
+
+.app-main > * {
+  padding: 24px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* Стили для placeholder страниц */
+.app-main h2 {
+  color: hsl(var(--foreground));
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.p-8 {
+  padding: 32px;
+}
+
