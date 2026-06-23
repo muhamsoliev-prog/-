@@ -139,6 +139,15 @@ When the user asks for changes:
 3. **Reference styles**: "editorial photography", "flat illustration", "3D render", "watercolor"
 4. **Specify aspect ratio context**: "wide banner", "square thumbnail", "vertical story"
 
+## Architecture, Facade & Roof Design
+
+For house design, facade redesign, roof visualization, or exterior/interior
+finishing concepts, see `references/architecture-design.md` for the
+edit-forward workflow that keeps a building's structure consistent across
+material/roof/facade iterations, plus domain-specific prompt vocabulary.
+This is visual concept generation only, not CAD — it cannot produce scaled
+floor plans or permit-ready drawings.
+
 ## Troubleshooting
 
 | Problem | Solution |
