@@ -3,6 +3,13 @@
     "stitch": {
       "type": "http",
       "url": "https://stitch.googleapis.com/mcp"
+    },
+    "rsv-data": {
+      "type": "http",
+      "url": "http://localhost/UT_Demo/hs/rsvdata/mcp",
+      "headers": {
+        "Authorization": "Basic ${RSV_DATA_TOKEN}"
+      }
     }
   }
 }
