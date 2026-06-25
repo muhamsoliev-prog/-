@@ -19,6 +19,12 @@
       "skillPath": "skills/canvas-design/SKILL.md",
       "computedHash": "3fa7ea60170023ad8268bf9fd734ea75dd404279a2ef8ddf5abaa1102ad8e5f4"
     },
+    "ckm-design": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/design/SKILL.md",
+      "computedHash": "413f4ab913d07f7fd92acbadc25d71aad63443be0c40d11234944aea688603b6"
+    },
     "code-reviewer": {
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
