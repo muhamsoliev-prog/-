@@ -13,6 +13,12 @@
       "skillPath": "awesome_agent_skills/code-reviewer/SKILL.md",
       "computedHash": "4d3963ea9b091e75be5c66a52cf14ad36ba20a8bc52832fd8278349887224072"
     },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/docx/SKILL.md",
+      "computedHash": "6962db07127ee540a56e4677f65576d0727668a1d67f7da8bc978f10791c2bfe"
+    },
     "frontend-design": {
       "source": "anthropics/skills",
       "sourceType": "github",
