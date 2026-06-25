@@ -7,6 +7,12 @@
       "skillPath": "skills/brainstorming/SKILL.md",
       "computedHash": "26a8eb33d548f0c4ead9e7bc13a90c3853398d30345c651245a61a12b869f130"
     },
+    "browser-use": {
+      "source": "browser-use/browser-use",
+      "sourceType": "github",
+      "skillPath": "skills/browser-use/SKILL.md",
+      "computedHash": "c2f6bb1deba21399380e80e9eab963836c50ae77ad2dea21bd5ea10e66da707e"
+    },
     "code-reviewer": {
       "source": "Shubhamsaboo/awesome-llm-apps",
       "sourceType": "github",
