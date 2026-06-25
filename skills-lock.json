@@ -19,6 +19,12 @@
       "skillPath": "awesome_agent_skills/code-reviewer/SKILL.md",
       "computedHash": "4d3963ea9b091e75be5c66a52cf14ad36ba20a8bc52832fd8278349887224072"
     },
+    "design-system": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/design-system/SKILL.md",
+      "computedHash": "04ba4a8436c2d2fadcbeac7bc1ca8b8434096ebb6bf724426f5c2468430477d5"
+    },
     "docx": {
       "source": "anthropics/skills",
       "sourceType": "github",
