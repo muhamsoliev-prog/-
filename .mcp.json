@@ -43,6 +43,13 @@
       "env": {
         "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}"
       }
+    },
+    "glif": {
+      "command": "npx",
+      "args": ["-y", "@glifxyz/glif-mcp-server@latest"],
+      "env": {
+        "GLIF_API_TOKEN": "${GLIF_API_TOKEN}"
+      }
     }
   }
 }
