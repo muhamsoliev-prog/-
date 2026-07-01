@@ -32,6 +32,10 @@
       "env": {
         "API_KEY": "${TWENTY_FIRST_DEV_API_KEY}"
       }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest", "--executable-path", "/opt/pw-browsers/chromium"]
     }
   }
 }
