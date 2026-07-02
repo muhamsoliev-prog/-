@@ -150,6 +150,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/nextjs-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "tailwind-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/tailwind-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
