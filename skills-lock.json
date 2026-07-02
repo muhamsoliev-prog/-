@@ -228,6 +228,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/bim-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "planner-2d": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/planner-2d/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
