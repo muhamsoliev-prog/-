@@ -102,6 +102,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/cto-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "pm-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/pm-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
