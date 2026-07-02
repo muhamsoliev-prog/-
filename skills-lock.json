@@ -96,6 +96,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/ceo-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "cto-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/cto-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
