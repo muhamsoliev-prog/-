@@ -240,6 +240,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/planner-3d/SKILL.md",
       "computedHash": "custom"
+    },
+    "interior-designer": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/interior-designer/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
