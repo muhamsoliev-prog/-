@@ -216,6 +216,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/delivery-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "house-designer": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/house-designer/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
