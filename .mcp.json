@@ -81,6 +81,15 @@
     "postgresql": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-postgres", "${POSTGRES_CONNECTION_STRING}"]
+    },
+    "grafana": {
+      "command": "docker",
+      "args": [
+        "run", "-i", "--rm",
+        "-e", "GRAFANA_URL=${GRAFANA_URL}",
+        "-e", "GRAFANA_API_KEY=${GRAFANA_API_KEY}",
+        "grafana/mcp-grafana:latest"
+      ]
     }
   }
 }
