@@ -198,6 +198,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/inventory-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "warehouse-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/warehouse-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
