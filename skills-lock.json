@@ -114,6 +114,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/scrum-master/SKILL.md",
       "computedHash": "custom"
+    },
+    "software-architect": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/software-architect/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
