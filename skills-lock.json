@@ -252,6 +252,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/furniture-designer/SKILL.md",
       "computedHash": "custom"
+    },
+    "landscape-designer": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/landscape-designer/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
