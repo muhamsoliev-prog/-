@@ -77,6 +77,10 @@
     "terminal": {
       "command": "npx",
       "args": ["-y", "@wonderwhy-er/desktop-commander@latest"]
+    },
+    "postgresql": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres", "${POSTGRES_CONNECTION_STRING}"]
     }
   }
 }
