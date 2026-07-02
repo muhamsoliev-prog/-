@@ -144,6 +144,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/react-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "nextjs-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/nextjs-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
