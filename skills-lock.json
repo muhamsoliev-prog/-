@@ -246,6 +246,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/interior-designer/SKILL.md",
       "computedHash": "custom"
+    },
+    "furniture-designer": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/furniture-designer/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
