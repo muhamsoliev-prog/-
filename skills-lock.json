@@ -288,6 +288,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/seo-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "marketing-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/marketing-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
