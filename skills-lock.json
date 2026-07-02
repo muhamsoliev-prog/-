@@ -324,6 +324,84 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/ab-testing-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "typescript-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/typescript-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "prisma-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/prisma-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "docker-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/docker-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "kubernetes-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/kubernetes-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "testing-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/testing-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "prompt-engineering-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/prompt-engineering-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "refactoring-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/refactoring-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "devops-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/devops-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "accessibility-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/accessibility-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "threejs-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/threejs-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "ocr-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/ocr-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "pdf-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/pdf-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "excel-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/excel-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }

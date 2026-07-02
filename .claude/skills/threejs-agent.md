@@ -1,0 +1,1 @@
+../../.agents/skills/threejs-agent/SKILL.md

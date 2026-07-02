@@ -1,0 +1,1 @@
+../../.agents/skills/prisma-agent/SKILL.md

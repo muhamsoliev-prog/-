@@ -1,0 +1,1 @@
+../../.agents/skills/ocr-agent/SKILL.md
