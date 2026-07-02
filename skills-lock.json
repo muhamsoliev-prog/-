@@ -108,6 +108,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/pm-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "scrum-master": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/scrum-master/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
