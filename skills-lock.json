@@ -180,6 +180,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/auth-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "payment-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/payment-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
