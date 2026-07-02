@@ -162,6 +162,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/uiux-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "nodejs-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/nodejs-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
