@@ -204,6 +204,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/warehouse-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "pricing-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/pricing-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
