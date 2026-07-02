@@ -90,6 +90,15 @@
         "-e", "GRAFANA_API_KEY=${GRAFANA_API_KEY}",
         "grafana/mcp-grafana:latest"
       ]
+    },
+    "metabase": {
+      "command": "npx",
+      "args": ["-y", "@metabase/mcp-server-metabase"],
+      "env": {
+        "METABASE_URL": "${METABASE_URL}",
+        "METABASE_USERNAME": "${METABASE_USERNAME}",
+        "METABASE_PASSWORD": "${METABASE_PASSWORD}"
+      }
     }
   }
 }
