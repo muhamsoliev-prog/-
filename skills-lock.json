@@ -138,6 +138,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/security-architect/SKILL.md",
       "computedHash": "custom"
+    },
+    "react-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/react-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
