@@ -156,6 +156,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/tailwind-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "uiux-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/uiux-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
