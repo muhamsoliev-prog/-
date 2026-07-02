@@ -300,6 +300,30 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/analytics-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "chatbot-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/chatbot-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "content-generator-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/content-generator-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "fraud-detection-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/fraud-detection-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "ab-testing-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/ab-testing-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }

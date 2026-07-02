@@ -1,0 +1,1 @@
+../../.agents/skills/content-generator-agent/SKILL.md
