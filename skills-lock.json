@@ -120,6 +120,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/software-architect/SKILL.md",
       "computedHash": "custom"
+    },
+    "database-architect": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/database-architect/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
