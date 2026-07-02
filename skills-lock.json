@@ -222,6 +222,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/house-designer/SKILL.md",
       "computedHash": "custom"
+    },
+    "bim-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/bim-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
