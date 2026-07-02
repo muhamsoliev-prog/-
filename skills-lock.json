@@ -234,6 +234,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/planner-2d/SKILL.md",
       "computedHash": "custom"
+    },
+    "planner-3d": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/planner-3d/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
