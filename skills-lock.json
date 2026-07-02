@@ -294,6 +294,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/marketing-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "analytics-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/analytics-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
