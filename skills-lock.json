@@ -270,6 +270,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/recommendation-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "ai-consultant": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/ai-consultant/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
