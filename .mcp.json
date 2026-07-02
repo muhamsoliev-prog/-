@@ -135,6 +135,13 @@
       "env": {
         "OPENAI_API_KEY": "${OPENAI_API_KEY}"
       }
+    },
+    "gemini": {
+      "command": "npx",
+      "args": ["-y", "@google/gemini-mcp-server@latest"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}"
+      }
     }
   }
 }
