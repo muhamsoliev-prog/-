@@ -258,6 +258,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/landscape-designer/SKILL.md",
       "computedHash": "custom"
+    },
+    "cost-estimator": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/cost-estimator/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
