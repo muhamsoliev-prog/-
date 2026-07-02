@@ -11,8 +11,13 @@ PROMPT=$(echo "$INPUT" | jq -r '.user_prompt // ""' | tr '[:upper:]' '[:lower:]'
 AGENT=""
 REASON=""
 
+# house-architect — генерация проектов домов
+if echo "$PROMPT" | grep -qiE 'проект дома|планировк[аи]|этаж|спальн|хавли|строительств|смет[аы]|чертёж|floor.?plan|house.?project|дом.*генер|генер.*дом|архитектор.*дом|стройматериал|кв\.?м|м²'; then
+  AGENT="house-architect"
+  REASON="задача связана с генерацией проекта дома"
+
 # planner — планирование, архитектура, с чего начать
-if echo "$PROMPT" | grep -qiE 'как реализовать|с чего начать|спланируй|архитектур|разбей на|какой подход|план|planning|architect'; then
+elif echo "$PROMPT" | grep -qiE 'как реализовать|с чего начать|спланируй|архитектур|разбей на|какой подход|план|planning|architect'; then
   AGENT="planner"
   REASON="задача требует планирования"
 
