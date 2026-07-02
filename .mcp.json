@@ -106,6 +106,13 @@
       "env": {
         "SENTRY_AUTH_TOKEN": "${SENTRY_AUTH_TOKEN}"
       }
+    },
+    "google-maps": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-maps"],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}"
+      }
     }
   }
 }
