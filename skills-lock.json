@@ -132,6 +132,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/api-architect/SKILL.md",
       "computedHash": "custom"
+    },
+    "security-architect": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/security-architect/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
