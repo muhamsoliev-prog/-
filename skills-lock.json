@@ -186,6 +186,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/payment-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "catalog-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/catalog-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
