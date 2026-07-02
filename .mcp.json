@@ -128,6 +128,13 @@
         "APS_CLIENT_ID": "${APS_CLIENT_ID}",
         "APS_CLIENT_SECRET": "${APS_CLIENT_SECRET}"
       }
+    },
+    "openai": {
+      "command": "npx",
+      "args": ["-y", "openai-mcp-server@latest"],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
     }
   }
 }
