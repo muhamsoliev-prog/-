@@ -168,6 +168,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/nodejs-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "api-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/api-agent/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
