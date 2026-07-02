@@ -402,6 +402,12 @@
       "sourceType": "local",
       "skillPath": ".agents/skills/excel-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "materials-selector": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/materials-selector/SKILL.md",
+      "computedHash": "a7eb907aa89ee7ddf09ab14f2ce5867a747e9cb77f2126323e3b934492a2d58e"
     }
   }
 }
