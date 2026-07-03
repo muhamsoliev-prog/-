@@ -1,6 +1,54 @@
 {
   "version": 1,
   "skills": {
+    "ab-testing-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/ab-testing-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "accessibility-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/accessibility-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "ai-consultant": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/ai-consultant/SKILL.md",
+      "computedHash": "custom"
+    },
+    "analytics-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/analytics-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "api-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/api-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "api-architect": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/api-architect/SKILL.md",
+      "computedHash": "custom"
+    },
+    "auth-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/auth-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "bim-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/bim-agent/SKILL.md",
+      "computedHash": "custom"
+    },
     "brainstorming": {
       "source": "obra/superpowers",
       "sourceType": "github",
@@ -19,6 +67,24 @@
       "skillPath": "skills/canvas-design/SKILL.md",
       "computedHash": "3fa7ea60170023ad8268bf9fd734ea75dd404279a2ef8ddf5abaa1102ad8e5f4"
     },
+    "catalog-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/catalog-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "ceo-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/ceo-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "chatbot-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/chatbot-agent/SKILL.md",
+      "computedHash": "custom"
+    },
     "ckm-design": {
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
       "sourceType": "github",
@@ -31,70 +97,16 @@
       "skillPath": "awesome_agent_skills/code-reviewer/SKILL.md",
       "computedHash": "4d3963ea9b091e75be5c66a52cf14ad36ba20a8bc52832fd8278349887224072"
     },
-    "design-system": {
-      "source": "affaan-m/ECC",
-      "sourceType": "github",
-      "skillPath": "skills/design-system/SKILL.md",
-      "computedHash": "04ba4a8436c2d2fadcbeac7bc1ca8b8434096ebb6bf724426f5c2468430477d5"
-    },
-    "docx": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
-      "skillPath": "skills/docx/SKILL.md",
-      "computedHash": "6962db07127ee540a56e4677f65576d0727668a1d67f7da8bc978f10791c2bfe"
-    },
-    "frontend-design": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
-      "skillPath": "skills/frontend-design/SKILL.md",
-      "computedHash": "4eabc66183767153e404b39d1b839b1c37f2d82d86f0a0d7e880a579d8d62336"
-    },
-    "karpathy-guidelines": {
-      "source": "multica-ai/andrej-karpathy-skills",
-      "sourceType": "github",
-      "skillPath": "skills/karpathy-guidelines/SKILL.md",
-      "computedHash": "41e8ca055bbde13d240776a14a076a59614057200340c243130a76ba4e64cac8"
-    },
-    "mcp-integration": {
-      "source": "anthropics/claude-code",
-      "sourceType": "github",
-      "skillPath": "plugins/plugin-dev/skills/mcp-integration/SKILL.md",
-      "computedHash": "1cbfb6b1cf98f48a7c6938e113869a229cd5a59037712072fe11f21a47c6df0e"
-    },
-    "supabase": {
-      "source": "supabase/agent-skills",
-      "sourceType": "github",
-      "skillPath": "skills/supabase/SKILL.md",
-      "computedHash": "d414d598b9428b3e851c4ce61898649906b19e55aa7415bb42a286bd9ca2ab32"
-    },
-    "supabase-postgres-best-practices": {
-      "source": "supabase/agent-skills",
-      "sourceType": "github",
-      "skillPath": "skills/supabase-postgres-best-practices/SKILL.md",
-      "computedHash": "0d2c4857a7d6fdcd3fbc46e458fa4c497f029cab89a01548b3defce203003932"
-    },
-    "theme-factory": {
-      "source": "anthropics/skills",
-      "sourceType": "github",
-      "skillPath": "skills/theme-factory/SKILL.md",
-      "computedHash": "598ddfa9784ae2a8c55be5dbb047b98564d875dea6f4669168a87ae1ea1a4ed3"
-    },
-    "ui-ux-pro-max": {
-      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "sourceType": "github",
-      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
-      "computedHash": "f571a0ab228ad3ad3ac41a51c2c3450a9edb6ac3eb65f16baf5b459d01d53689"
-    },
-    "vercel-react-best-practices": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "skillPath": "skills/react-best-practices/SKILL.md",
-      "computedHash": "3219a1944e404ffc14d1d9d6aef6dd2e3855b81387ee0a044ccbfe14d34c2357"
-    },
-    "ceo-agent": {
+    "content-generator-agent": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/ceo-agent/SKILL.md",
+      "skillPath": ".agents/skills/content-generator-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "cost-estimator": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/cost-estimator/SKILL.md",
       "computedHash": "custom"
     },
     "cto-agent": {
@@ -103,112 +115,10 @@
       "skillPath": ".agents/skills/cto-agent/SKILL.md",
       "computedHash": "custom"
     },
-    "pm-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/pm-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "scrum-master": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/scrum-master/SKILL.md",
-      "computedHash": "custom"
-    },
-    "software-architect": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/software-architect/SKILL.md",
-      "computedHash": "custom"
-    },
     "database-architect": {
       "source": "local",
       "sourceType": "local",
       "skillPath": ".agents/skills/database-architect/SKILL.md",
-      "computedHash": "custom"
-    },
-    "api-architect": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/api-architect/SKILL.md",
-      "computedHash": "custom"
-    },
-    "security-architect": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/security-architect/SKILL.md",
-      "computedHash": "custom"
-    },
-    "react-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/react-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "nextjs-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/nextjs-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "tailwind-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/tailwind-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "uiux-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/uiux-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "nodejs-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/nodejs-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "api-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/api-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "auth-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/auth-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "payment-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/payment-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "catalog-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/catalog-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "inventory-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/inventory-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "warehouse-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/warehouse-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "pricing-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/pricing-agent/SKILL.md",
       "computedHash": "custom"
     },
     "delivery-agent": {
@@ -217,16 +127,142 @@
       "skillPath": ".agents/skills/delivery-agent/SKILL.md",
       "computedHash": "custom"
     },
+    "deploy-to-vercel": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-to-vercel/SKILL.md",
+      "computedHash": "d2b5bcc7c09fdb649129ffc7dd7b647ec1b155736974b974292675afd588cb39"
+    },
+    "design-system": {
+      "source": "affaan-m/ECC",
+      "sourceType": "github",
+      "skillPath": "skills/design-system/SKILL.md",
+      "computedHash": "04ba4a8436c2d2fadcbeac7bc1ca8b8434096ebb6bf724426f5c2468430477d5"
+    },
+    "devops-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/devops-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "docker-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/docker-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/docx/SKILL.md",
+      "computedHash": "6962db07127ee540a56e4677f65576d0727668a1d67f7da8bc978f10791c2bfe"
+    },
+    "excel-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/excel-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "fraud-detection-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/fraud-detection-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "4eabc66183767153e404b39d1b839b1c37f2d82d86f0a0d7e880a579d8d62336"
+    },
+    "furniture-designer": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/furniture-designer/SKILL.md",
+      "computedHash": "custom"
+    },
     "house-designer": {
       "source": "local",
       "sourceType": "local",
       "skillPath": ".agents/skills/house-designer/SKILL.md",
       "computedHash": "custom"
     },
-    "bim-agent": {
+    "interior-designer": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/bim-agent/SKILL.md",
+      "skillPath": ".agents/skills/interior-designer/SKILL.md",
+      "computedHash": "custom"
+    },
+    "inventory-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/inventory-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "karpathy-guidelines": {
+      "source": "multica-ai/andrej-karpathy-skills",
+      "sourceType": "github",
+      "skillPath": "skills/karpathy-guidelines/SKILL.md",
+      "computedHash": "41e8ca055bbde13d240776a14a076a59614057200340c243130a76ba4e64cac8"
+    },
+    "kubernetes-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/kubernetes-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "landscape-designer": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/landscape-designer/SKILL.md",
+      "computedHash": "custom"
+    },
+    "marketing-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/marketing-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "materials-selector": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/materials-selector/SKILL.md",
+      "computedHash": "a7eb907aa89ee7ddf09ab14f2ce5867a747e9cb77f2126323e3b934492a2d58e"
+    },
+    "mcp-integration": {
+      "source": "anthropics/claude-code",
+      "sourceType": "github",
+      "skillPath": "plugins/plugin-dev/skills/mcp-integration/SKILL.md",
+      "computedHash": "1cbfb6b1cf98f48a7c6938e113869a229cd5a59037712072fe11f21a47c6df0e"
+    },
+    "nextjs-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/nextjs-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "nodejs-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/nodejs-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "ocr-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/ocr-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "payment-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/payment-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "pdf-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/pdf-agent/SKILL.md",
       "computedHash": "custom"
     },
     "planner-2d": {
@@ -241,94 +277,16 @@
       "skillPath": ".agents/skills/planner-3d/SKILL.md",
       "computedHash": "custom"
     },
-    "interior-designer": {
+    "pm-agent": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/interior-designer/SKILL.md",
+      "skillPath": ".agents/skills/pm-agent/SKILL.md",
       "computedHash": "custom"
     },
-    "furniture-designer": {
+    "pricing-agent": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/furniture-designer/SKILL.md",
-      "computedHash": "custom"
-    },
-    "landscape-designer": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/landscape-designer/SKILL.md",
-      "computedHash": "custom"
-    },
-    "cost-estimator": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/cost-estimator/SKILL.md",
-      "computedHash": "custom"
-    },
-    "recommendation-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/recommendation-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "ai-consultant": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/ai-consultant/SKILL.md",
-      "computedHash": "custom"
-    },
-    "search-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/search-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "seo-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/seo-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "marketing-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/marketing-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "analytics-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/analytics-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "chatbot-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/chatbot-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "content-generator-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/content-generator-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "fraud-detection-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/fraud-detection-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "ab-testing-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/ab-testing-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "typescript-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/typescript-agent/SKILL.md",
+      "skillPath": ".agents/skills/pricing-agent/SKILL.md",
       "computedHash": "custom"
     },
     "prisma-agent": {
@@ -337,28 +295,22 @@
       "skillPath": ".agents/skills/prisma-agent/SKILL.md",
       "computedHash": "custom"
     },
-    "docker-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/docker-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "kubernetes-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/kubernetes-agent/SKILL.md",
-      "computedHash": "custom"
-    },
-    "testing-agent": {
-      "source": "local",
-      "sourceType": "local",
-      "skillPath": ".agents/skills/testing-agent/SKILL.md",
-      "computedHash": "custom"
-    },
     "prompt-engineering-agent": {
       "source": "local",
       "sourceType": "local",
       "skillPath": ".agents/skills/prompt-engineering-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "react-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/react-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "recommendation-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/recommendation-agent/SKILL.md",
       "computedHash": "custom"
     },
     "refactoring-agent": {
@@ -367,17 +319,65 @@
       "skillPath": ".agents/skills/refactoring-agent/SKILL.md",
       "computedHash": "custom"
     },
-    "devops-agent": {
+    "scrum-master": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/devops-agent/SKILL.md",
+      "skillPath": ".agents/skills/scrum-master/SKILL.md",
       "computedHash": "custom"
     },
-    "accessibility-agent": {
+    "search-agent": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/accessibility-agent/SKILL.md",
+      "skillPath": ".agents/skills/search-agent/SKILL.md",
       "computedHash": "custom"
+    },
+    "security-architect": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/security-architect/SKILL.md",
+      "computedHash": "custom"
+    },
+    "seo-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/seo-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "software-architect": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/software-architect/SKILL.md",
+      "computedHash": "custom"
+    },
+    "supabase": {
+      "source": "supabase/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/supabase/SKILL.md",
+      "computedHash": "d414d598b9428b3e851c4ce61898649906b19e55aa7415bb42a286bd9ca2ab32"
+    },
+    "supabase-postgres-best-practices": {
+      "source": "supabase/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/supabase-postgres-best-practices/SKILL.md",
+      "computedHash": "0d2c4857a7d6fdcd3fbc46e458fa4c497f029cab89a01548b3defce203003932"
+    },
+    "tailwind-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/tailwind-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "testing-agent": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/testing-agent/SKILL.md",
+      "computedHash": "custom"
+    },
+    "theme-factory": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/theme-factory/SKILL.md",
+      "computedHash": "598ddfa9784ae2a8c55be5dbb047b98564d875dea6f4669168a87ae1ea1a4ed3"
     },
     "threejs-agent": {
       "source": "local",
@@ -385,29 +385,269 @@
       "skillPath": ".agents/skills/threejs-agent/SKILL.md",
       "computedHash": "custom"
     },
-    "ocr-agent": {
+    "typescript-agent": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/ocr-agent/SKILL.md",
+      "skillPath": ".agents/skills/typescript-agent/SKILL.md",
       "computedHash": "custom"
     },
-    "pdf-agent": {
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "f571a0ab228ad3ad3ac41a51c2c3450a9edb6ac3eb65f16baf5b459d01d53689"
+    },
+    "uiux-agent": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/pdf-agent/SKILL.md",
+      "skillPath": ".agents/skills/uiux-agent/SKILL.md",
       "computedHash": "custom"
     },
-    "excel-agent": {
+    "vercel-cli-with-tokens": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/vercel-cli-with-tokens/SKILL.md",
+      "computedHash": "a2f596ac516fe8986386f9562f4c94604af9fb6a0fc417d263cbe6dc05117b72"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "computedHash": "f98931159fa9c7fed043bcd18a891a46dcf89ababa38df13a4c5b7b30dc0ce07"
+    },
+    "vercel-optimize": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/vercel-optimize/SKILL.md",
+      "computedHash": "9d4ace02972b9b1c462f097c7322eb32c9f04bba6f2fb5cf482086d402eeec33"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "3219a1944e404ffc14d1d9d6aef6dd2e3855b81387ee0a044ccbfe14d34c2357"
+    },
+    "vercel-react-native-skills": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-native-skills/SKILL.md",
+      "computedHash": "2e9088a7333666d8c2833b8ff58bd51b955501c42b4c7244f72b4cbf22dafcc4"
+    },
+    "vercel-react-view-transitions": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-view-transitions/SKILL.md",
+      "computedHash": "4fea9144f604256d0a21faaea904b7e205e7676e316721ba5fdd68c2600c7d42"
+    },
+    "warehouse-agent": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/excel-agent/SKILL.md",
+      "skillPath": ".agents/skills/warehouse-agent/SKILL.md",
       "computedHash": "custom"
     },
-    "materials-selector": {
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a"
+    },
+    "writing-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/writing-guidelines/SKILL.md",
+      "computedHash": "e90462d4f801d823603b12c345ad0ff91a7489415274432681d21c7129123c26"
+    },
+    "agent-orchestration": {
       "source": "local",
       "sourceType": "local",
-      "skillPath": ".agents/skills/materials-selector/SKILL.md",
-      "computedHash": "a7eb907aa89ee7ddf09ab14f2ce5867a747e9cb77f2126323e3b934492a2d58e"
+      "skillPath": ".agents/skills/agent-orchestration/SKILL.md",
+      "computedHash": "custom"
+    },
+    "algorithmic-art": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/algorithmic-art/SKILL.md",
+      "computedHash": "custom"
+    },
+    "animation-patterns": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/animation-patterns/SKILL.md",
+      "computedHash": "custom"
+    },
+    "antigravity-protocol": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/antigravity-protocol/SKILL.md",
+      "computedHash": "custom"
+    },
+    "brand-guidelines": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/brand-guidelines/SKILL.md",
+      "computedHash": "custom"
+    },
+    "claude-api": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/claude-api/SKILL.md",
+      "computedHash": "custom"
+    },
+    "frontend-dev": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/frontend-dev/SKILL.md",
+      "computedHash": "custom"
+    },
+    "frontend-patterns": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/frontend-patterns/SKILL.md",
+      "computedHash": "custom"
+    },
+    "higgsfield-seedance2": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/higgsfield-seedance2/SKILL.md",
+      "computedHash": "custom"
+    },
+    "instagram-carousel": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/instagram-carousel/SKILL.md",
+      "computedHash": "custom"
+    },
+    "instagram-graph-api": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/instagram-graph-api/SKILL.md",
+      "computedHash": "custom"
+    },
+    "manim-composer": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/manim-composer/SKILL.md",
+      "computedHash": "custom"
+    },
+    "manimce-best-practices": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/manimce-best-practices/SKILL.md",
+      "computedHash": "custom"
+    },
+    "mcp-builder": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/mcp-builder/SKILL.md",
+      "computedHash": "custom"
+    },
+    "nano-banana": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/nano-banana/SKILL.md",
+      "computedHash": "custom"
+    },
+    "parallel-agents": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/parallel-agents/SKILL.md",
+      "computedHash": "custom"
+    },
+    "remotion": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/remotion/SKILL.md",
+      "computedHash": "custom"
+    },
+    "saas-analytics-patterns": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/saas-analytics-patterns/SKILL.md",
+      "computedHash": "custom"
+    },
+    "saas-auth-patterns": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/saas-auth-patterns/SKILL.md",
+      "computedHash": "custom"
+    },
+    "saas-launch-checklist": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/saas-launch-checklist/SKILL.md",
+      "computedHash": "custom"
+    },
+    "saas-payment-patterns": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/saas-payment-patterns/SKILL.md",
+      "computedHash": "custom"
+    },
+    "security-review": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/security-review/SKILL.md",
+      "computedHash": "custom"
+    },
+    "skill-creator": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/skill-creator/SKILL.md",
+      "computedHash": "custom"
+    },
+    "sub-agents": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/sub-agents/SKILL.md",
+      "computedHash": "custom"
+    },
+    "swarm-optimization-patterns": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/swarm-optimization-patterns/SKILL.md",
+      "computedHash": "custom"
+    },
+    "ui-ux-patterns": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/ui-ux-patterns/SKILL.md",
+      "computedHash": "custom"
+    },
+    "visual-verdict": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/visual-verdict/SKILL.md",
+      "computedHash": "custom"
+    },
+    "web-artifacts-builder": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/web-artifacts-builder/SKILL.md",
+      "computedHash": "custom"
+    },
+    "webapp-testing": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/webapp-testing/SKILL.md",
+      "computedHash": "custom"
+    },
+    "workflow-router": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/workflow-router/SKILL.md",
+      "computedHash": "custom"
+    },
+    "docs": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/docs/SKILL.md",
+      "computedHash": "custom"
+    },
+    "data-analysis": {
+      "source": "local",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/data-analysis/SKILL.md",
+      "computedHash": "custom"
     }
   }
 }
