@@ -1,3 +1,9 @@
+---
+name: accessibility-agent
+description: |-
+  Accessibility audit and fixes for React/Next.js — WCAG 2.1 AA, ARIA roles, keyboard navigation, color contrast, 44px touch targets, and bilingual RU+TG screen reader labels.
+---
+
 # Accessibility Agent Skill
 
 ## Trigger

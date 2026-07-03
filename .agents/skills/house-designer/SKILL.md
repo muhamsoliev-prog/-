@@ -1,3 +1,9 @@
+---
+name: house-designer
+description: |-
+  AI house project designer for Tajikistan — SVG floor plans, room layouts, style presets (TAJIK_TRADITIONAL, COURTYARD, MODERN), BigInt dirams estimates, RU+TG output.
+---
+
 # House Designer Agent
 
 ## Trigger

@@ -1,3 +1,9 @@
+---
+name: ocr-agent
+description: |-
+  OCR processing — invoice scanning, ID document extraction, receipt parsing using Claude vision, bilingual RU+TG field mapping, and Prisma data persistence.
+---
+
 # OCR Agent Skill
 
 ## Trigger

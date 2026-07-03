@@ -1,3 +1,9 @@
+---
+name: docker-agent
+description: |-
+  Docker configuration — Dockerfile optimisation, multi-stage builds, docker-compose for PostgreSQL/Redis/Meilisearch stack, and production container best practices.
+---
+
 # Docker Agent Skill
 
 ## Trigger

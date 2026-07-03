@@ -1,3 +1,9 @@
+---
+name: search-agent
+description: |-
+  Meilisearch integration — bilingual RU+TG index config, typo tolerance for Cyrillic, faceted filters, product ranking, and search analytics.
+---
+
 # Search Agent Skill
 
 ## Trigger

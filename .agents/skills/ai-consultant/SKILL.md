@@ -1,3 +1,9 @@
+---
+name: ai-consultant
+description: |-
+  AI strategy consultant for Tajikistan marketplace — Claude integration patterns, cost optimisation, prompt engineering, BullMQ AI queues, trackAIUsage, and model selection.
+---
+
 # AI Consultant Skill
 
 ## Trigger

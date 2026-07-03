@@ -1,3 +1,9 @@
+---
+name: typescript-agent
+description: |-
+  TypeScript strict mode specialist — advanced types, generics, utility types, discriminated unions, BigInt dirams type safety, and Zod schema integration.
+---
+
 # TypeScript Agent Skill
 
 ## Trigger

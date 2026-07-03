@@ -1,3 +1,9 @@
+---
+name: materials-selector
+description: |-
+  AI building materials selector for Tajikistan — climate-zone-aware selection, local vs imported comparison, quantity calculation, supplier lookup, and dirams cost estimate.
+---
+
 # Materials Selector Agent
 
 ## Trigger

@@ -1,3 +1,9 @@
+---
+name: delivery-agent
+description: |-
+  Delivery logistics for Tajikistan — route optimisation, Dushanbe zone mapping, COD cash reconciliation, driver tracking, BullMQ dispatch queue, and status webhooks.
+---
+
 # Delivery Agent
 
 ## Trigger

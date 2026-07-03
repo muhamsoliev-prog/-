@@ -1,3 +1,9 @@
+---
+name: chatbot-agent
+description: |-
+  Tajikistan marketplace chatbot — Claude-powered order tracking, product search, FAQ answering, Telegram bot integration, bilingual RU+TG, and COD payment flow.
+---
+
 # Chatbot Agent Skill
 
 ## Trigger

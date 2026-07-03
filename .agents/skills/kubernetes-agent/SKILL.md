@@ -1,3 +1,9 @@
+---
+name: kubernetes-agent
+description: |-
+  Kubernetes deployment — manifests, Helm charts, HPA scaling, persistent volumes for PostgreSQL, secrets management, and rolling updates for Next.js services.
+---
+
 # Kubernetes Agent Skill
 
 ## Trigger

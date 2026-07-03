@@ -1,3 +1,9 @@
+---
+name: analytics-agent
+description: |-
+  Analytics for Tajikistan e-commerce — event tracking, funnel analysis, cohort retention, revenue dashboards in dirams, seller KPIs, and BullMQ nightly aggregations.
+---
+
 # Analytics Agent Skill
 
 ## Trigger

@@ -1,3 +1,9 @@
+---
+name: prompt-engineering-agent
+description: |-
+  Prompt engineering for Claude — system prompts, few-shot examples, chain-of-thought, tool use patterns, JSON output, bilingual RU+TG prompts, and token optimisation.
+---
+
 # Prompt Engineering Agent Skill
 
 ## Trigger

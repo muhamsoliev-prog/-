@@ -1,3 +1,9 @@
+---
+name: seo-agent
+description: |-
+  Technical SEO for Tajikistan marketplace — Next.js metadata, structured data, sitemap, hreflang RU+TG, Core Web Vitals, and Yandex/Google optimisation.
+---
+
 # SEO Agent Skill
 
 ## Trigger

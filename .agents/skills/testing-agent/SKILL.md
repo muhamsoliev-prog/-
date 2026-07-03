@@ -1,3 +1,9 @@
+---
+name: testing-agent
+description: |-
+  Testing for Tajikistan marketplace — Vitest unit tests for BigInt dirams logic, Playwright E2E for COD flows, bilingual rendering checks, and CI integration.
+---
+
 # Testing Agent Skill
 
 ## Trigger

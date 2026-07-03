@@ -1,3 +1,9 @@
+---
+name: pdf-agent
+description: |-
+  PDF generation for Tajikistan marketplace — order invoices, delivery receipts, material estimates, bilingual RU+TG documents, and PDFKit/Puppeteer templates.
+---
+
 # PDF Agent Skill
 
 ## Trigger

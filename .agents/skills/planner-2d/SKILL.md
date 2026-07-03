@@ -1,3 +1,9 @@
+---
+name: planner-2d
+description: |-
+  2D floor plan editor — Konva.js canvas, room drawing, door/window placement, furniture library, dimension annotations, PDF export, and material quantity auto-calc.
+---
+
 # 2D Planner Agent
 
 ## Trigger

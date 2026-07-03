@@ -1,3 +1,9 @@
+---
+name: threejs-agent
+description: |-
+  Three.js 3D visualizations — house project walkthroughs, construction site models, material texture previews, and WebGL performance optimisation.
+---
+
 # Three.js Agent Skill
 
 ## Trigger

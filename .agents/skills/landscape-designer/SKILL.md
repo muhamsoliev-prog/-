@@ -1,3 +1,9 @@
+---
+name: landscape-designer
+description: |-
+  Landscape design for Tajikistan — courtyard (havli) layouts, local plant selection, irrigation for arid climate, seating zones, and material specifications in dirams.
+---
+
 # Landscape Designer Agent
 
 ## Trigger

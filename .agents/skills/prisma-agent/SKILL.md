@@ -1,3 +1,9 @@
+---
+name: prisma-agent
+description: |-
+  Prisma ORM specialist — schema design, migrations, query optimisation, BigInt dirams fields, N+1 prevention, transaction patterns, and PostgreSQL index strategy.
+---
+
 # Prisma Agent Skill
 
 ## Trigger

@@ -1,3 +1,9 @@
+---
+name: ab-testing-agent
+description: |-
+  A/B testing framework for Next.js — variant definitions, statistical significance, experiment logs, feature flags, and conversion funnels with BigInt dirams metrics.
+---
+
 # A/B Testing Agent Skill
 
 ## Trigger

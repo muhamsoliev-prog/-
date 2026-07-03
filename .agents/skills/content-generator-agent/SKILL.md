@@ -1,3 +1,9 @@
+---
+name: content-generator-agent
+description: |-
+  Bilingual RU+TG content generation — product descriptions, category texts, SEO meta, email copy, push notifications, and Telegram channel posts for Tajikistan market.
+---
+
 # Content Generator Agent Skill
 
 ## Trigger

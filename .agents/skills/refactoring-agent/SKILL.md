@@ -1,3 +1,9 @@
+---
+name: refactoring-agent
+description: |-
+  Code refactoring — extract patterns, eliminate duplication, enforce TypeScript strictness, BigInt dirams compliance, bilingual field checks, without changing behavior.
+---
+
 # Refactoring Agent Skill
 
 ## Trigger

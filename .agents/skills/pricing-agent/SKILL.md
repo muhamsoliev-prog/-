@@ -1,3 +1,9 @@
+---
+name: pricing-agent
+description: |-
+  Dynamic pricing for Tajikistan marketplace — demand-based adjustments, competitor price monitoring, seasonal promotions, BigInt dirams calculations, and price history.
+---
+
 # Pricing Agent
 
 ## Trigger

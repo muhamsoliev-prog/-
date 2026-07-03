@@ -1,3 +1,9 @@
+---
+name: marketing-agent
+description: |-
+  Growth & marketing for Tajikistan marketplace — promo codes, Telegram campaigns, Beeline SMS, loyalty points, referral programs, Navruz/Eid seasonal mechanics.
+---
+
 # Marketing Agent Skill
 
 ## Trigger

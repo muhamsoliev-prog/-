@@ -1,3 +1,9 @@
+---
+name: cost-estimator
+description: |-
+  Construction cost estimator for Tajikistan — labour rates, material quantities, regional pricing, seismic requirements, and full project budget in BigInt dirams.
+---
+
 # Cost Estimator Agent
 
 ## Trigger

@@ -1,3 +1,9 @@
+---
+name: planner-3d
+description: |-
+  3D visualization — Three.js scene from 2D floor plan, first-person walkthrough, material textures, lighting presets, and screenshot export for house projects.
+---
+
 # 3D Planner Agent
 
 ## Trigger

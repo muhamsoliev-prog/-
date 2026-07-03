@@ -1,3 +1,9 @@
+---
+name: fraud-detection-agent
+description: |-
+  Fraud detection for Tajikistan e-commerce — suspicious order patterns, COD cancellation scoring, device fingerprinting, BullMQ risk queue, and admin alerts.
+---
+
 # Fraud Detection Agent Skill
 
 ## Trigger

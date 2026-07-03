@@ -1,3 +1,9 @@
+---
+name: recommendation-agent
+description: |-
+  Product recommendations for Tajikistan marketplace — collaborative filtering, content-based matching, BullMQ retraining, Meilisearch vector search, and A/B test integration.
+---
+
 # Recommendation Agent
 
 ## Trigger

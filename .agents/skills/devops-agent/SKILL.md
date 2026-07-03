@@ -1,3 +1,9 @@
+---
+name: devops-agent
+description: |-
+  DevOps for Next.js/PostgreSQL/Redis stack — Docker Compose, CI/CD pipelines, health checks, environment secrets, Prisma migration deployment, and monitoring.
+---
+
 # DevOps Agent Skill
 
 ## Trigger

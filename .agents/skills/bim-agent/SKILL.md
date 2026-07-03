@@ -1,3 +1,9 @@
+---
+name: bim-agent
+description: |-
+  BIM (Building Information Modelling) specialist — IFC format, structural element encoding, clash detection, quantity takeoff, and integration with house-designer and planner-2d.
+---
+
 # BIM Agent
 
 ## Trigger

@@ -1,3 +1,9 @@
+---
+name: warehouse-agent
+description: |-
+  Warehouse management for Tajikistan — stock tracking, low-inventory alerts, supplier reorder, BullMQ inventory queue, and multi-location support.
+---
+
 # Warehouse Agent
 
 ## Trigger

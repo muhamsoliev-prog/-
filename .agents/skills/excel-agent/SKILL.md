@@ -1,3 +1,9 @@
+---
+name: excel-agent
+description: |-
+  Excel/CSV data export for Tajikistan marketplace — order reports, inventory sheets, revenue in TJS/dirams, seller payouts, and xlsx generation with ExcelJS.
+---
+
 # Excel Agent Skill
 
 ## Trigger
