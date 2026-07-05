@@ -1,7 +1,7 @@
 # MARKITPYS — Статус проекта и задачи
 > Файл обновляется автоматически хуком memory-save.sh после каждой сессии
 > Репозиторий: muhamsoliev-prog/MARKITPYS
-> Последнее обновление: 2026-07-05
+> Последнее обновление: 2026-07-05 22:00
 
 ---
 
@@ -149,3 +149,13 @@ COD: всегда первый вариант оплаты
 ---
 
 <!-- MARKITPYS_SESSIONS_LOG -->
+
+### 2026-07-05 22:00 | claude/stitch-mcp-http-transport-rodgok
+- feat(memory): add auto task-sync hook + complete MARKITPYS session prompt
+- feat(memory): add persistent task tracker and session-start system
+
+
+### 2026-07-05 21:56 | claude/stitch-mcp-http-transport-rodgok
+- feat(memory): add auto task-sync hook + complete MARKITPYS session prompt
+- feat(memory): add persistent task tracker and session-start system
+
