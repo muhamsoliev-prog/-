@@ -1,0 +1,1 @@
+../../.agents/skills/excel-agent/SKILL.md

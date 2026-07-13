@@ -1,0 +1,185 @@
+# MARKITPYS — Статус проекта и задачи
+> Файл обновляется автоматически хуком memory-save.sh после каждой сессии
+> Репозиторий: muhamsoliev-prog/MARKITPYS
+> Последнее обновление: 2026-07-13 11:01
+
+---
+
+## СТЕК MARKITPYS (ВАЖНО — отличается от конфиг-репо!)
+```
+Frontend: Vite + React 18 + React Router (HashRouter, #/route)
+Backend:  Express.js + pg (node-postgres)  
+БД:       PostgreSQL (деньги — обычный Int сомони, НЕ BigInt)
+Стили:    Tailwind CSS
+3D:       Three.js (уже установлен)
+Сайт:     osinot.tj | GitHub: muhamsoliev-prog/MARKITPYS
+```
+
+---
+
+## ✅ ЧТО УЖЕ СДЕЛАНО
+
+### Основа
+- [x] Vite + React проект запущен
+- [x] Express backend с PostgreSQL
+- [x] Tailwind CSS настроен
+- [x] Hash Router (#/route) работает
+- [x] Шапка и подвал созданы
+- [x] Переключатель языков RU/ТЧ
+
+### Каталог
+- [x] Страница каталога (#/catalog)
+- [x] Категории: Шторы, Тюль, Жалюзи, Рулонные, Окна, Аксессуары
+- [x] Карточки товаров с ценами
+- [x] Базовая корзина
+
+### Кабинеты
+- [x] Тестовый режим продавца
+- [x] Тестовый режим курьера
+- [x] Базовый профиль покупателя
+
+### Дизайн (частично)
+- [x] Быстрый 3D-дизайнер комнаты (beta, на главной)
+- [x] 2D-планировщик (в каталоге)
+- [x] Раздел #/design (галерея) — PR #6
+
+---
+
+## ❌ ЧТО НЕ СДЕЛАНО / СДЕЛАНО ПЛОХО
+
+### 🔴 КРИТИЧЕСКИЕ (сайт не работает нормально)
+
+- [ ] **Заказ не доходит до продавца** — flow заказа сломан или не реализован до конца
+- [ ] **Дизайн-раздел разбросан** — 3D на главной, 2D в каталоге, галерея отдельно — должно быть ОДНИМ экраном
+- [ ] **Фото товаров — placeholder** — нет реальных фото штор/жалюзи/окон
+- [ ] **Профиль покупателя** — много лишнего, нет быстрого доступа к дизайнеру
+
+### 🟡 ВАЖНЫЕ (работает плохо)
+
+- [ ] **Дизайн выглядит непрофессионально** — не уровень WB/Ozon
+- [ ] **3D дизайнер** — слайдеры разбросаны, шторы не отображаются на окне как текстура
+- [ ] **Нет штрих-кодов** у товаров в кабинете продавца
+- [ ] **Нет реального описания товаров** — нет характеристик, материал, размер
+- [ ] **Поиск** — работает или нет?
+- [ ] **Мобильная версия** — кнопки меньше 44px, что-то обрезается
+- [ ] **Seller dashboard** — нет аналитики (выручка, заказы)
+- [ ] **Уведомления продавцу** о новом заказе — нет
+
+### 🟢 ЖЕЛАТЕЛЬНО (после основных)
+
+- [ ] Рейтинг и отзывы на товар
+- [ ] Промокоды
+- [ ] Оплата Алиф/DC Wallet интеграция
+- [ ] SEO — мета-теги, OG-теги
+- [ ] Admin panel для управления всем сайтом
+- [ ] Push-уведомления
+- [ ] История заказов с деталями
+
+---
+
+## 📋 ПРИОРИТЕТ #1 — ИСПРАВИТЬ ПРЯМО СЕЙЧАС
+
+### Задача 1: Объединить дизайн-раздел в ОДИН экран
+```
+Создать src/pages/Design/index.jsx как ЕДИНЫЙ экран с вкладками:
+┌─ #/design ──────────────────────────────────────────────┐
+│ [Быстрый дизайнер] [2D Планировщик] [3D Редактор] [Идеи]│
+│                                                          │
+│ (контент вкладки здесь — всё на одной странице)         │
+└─────────────────────────────────────────────────────────┘
+Удалить: отдельный 3D на главной, отдельный 2D в каталоге
+```
+
+### Задача 2: Добавить реальные фото товаров
+```
+Обновить seed.js с реальными Unsplash фото:
+Шторы: https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800
+Тюль: https://images.unsplash.com/photo-1615873968403-89e068629265?w=800
+Жалюзи: https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800
+Рулонные: https://images.unsplash.com/photo-1556909211-36987daf7b4d?w=800
+Окна: https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800
+```
+
+### Задача 3: Исправить flow заказа
+```
+POST /api/orders → создаёт заказ в БД
+GET /api/seller/orders → продавец видит новые заказы
+GET /api/courier/orders → курьер видит подтверждённые
+PUT /api/orders/:id/status → смена статуса работает
+```
+
+### Задача 4: Обновить UI с 21st.dev компонентами
+```
+Использовать инструмент: mcp__magic__21st_magic_component_builder
+Примеры запросов:
+- "product card for e-commerce marketplace with image gallery, price, add to cart button"
+- "seller dashboard with order list, revenue stats, notification badge"
+- "mobile bottom navigation with 44px touch targets"
+```
+
+---
+
+## 🎨 ДИЗАЙН-СИСТЕМА OSINOT
+
+```
+Основные цвета:
+  Зелёный: #1B4332 (primary, шапка)
+  Оранжевый: #E85D04 (accent, кнопки CTA)
+  Фон: #F8F9FA (светлый)
+  Текст: #1A1A1A
+
+Типографика:
+  Заголовки: font-bold, text-xl/2xl/3xl
+  Тело: text-base, font-normal
+  
+Touch targets: min-h-[44px] везде (мобайл-фёрст)
+Двуязычность: title_ru + title_tg ВЕЗДЕ
+COD: всегда первый вариант оплаты
+```
+
+---
+
+## 📝 КАК ОБНОВЛЯТЬ ЭТОТ ФАЙЛ
+
+После каждой сессии MARKITPYS — обновляй этот файл:
+1. Переноси сделанные задачи из ❌ в ✅
+2. Добавляй новые баги если нашёл
+3. Коммить: `docs: update MARKITPYS_STATUS.md`
+
+---
+
+<!-- MARKITPYS_SESSIONS_LOG -->
+
+### 2026-07-13 11:01 | claude/stitch-mcp-http-transport-rodgok
+- docs: update MARKITPYS_STATUS.md — auto-sync session log 2026-07-13
+- docs: update MARKITPYS_STATUS.md — auto-sync session log 2026-07-13
+
+
+### 2026-07-13 10:53 | claude/stitch-mcp-http-transport-rodgok
+- docs: update MARKITPYS_STATUS.md — auto-sync session log 2026-07-13
+- docs: update MARKITPYS_STATUS.md — auto-sync session log 2026-07-13
+
+
+### 2026-07-13 10:53 | claude/stitch-mcp-http-transport-rodgok
+- docs: update MARKITPYS_STATUS.md — auto-sync session log 2026-07-13
+
+
+### 2026-07-13 10:49 | claude/stitch-mcp-http-transport-rodgok
+- docs: update MARKITPYS_STATUS.md — auto-sync session log 2026-07-13
+
+
+### 2026-07-05 22:00 | claude/stitch-mcp-http-transport-rodgok
+- docs: update MARKITPYS_STATUS.md — auto-sync session log 2026-07-05
+- feat(memory): add auto task-sync hook + complete MARKITPYS session prompt
+- feat(memory): add persistent task tracker and session-start system
+
+
+### 2026-07-05 22:00 | claude/stitch-mcp-http-transport-rodgok
+- feat(memory): add auto task-sync hook + complete MARKITPYS session prompt
+- feat(memory): add persistent task tracker and session-start system
+
+
+### 2026-07-05 21:56 | claude/stitch-mcp-http-transport-rodgok
+- feat(memory): add auto task-sync hook + complete MARKITPYS session prompt
+- feat(memory): add persistent task tracker and session-start system
+
